@@ -1,5 +1,4 @@
-/*
------------------------------------------------
+/* -----------------------------------------------
 Template Name  : Underfire
 Author         : NewBloggerThemes.com
 Author URL     : http://newbloggerthemes.com/
@@ -25,8 +24,7 @@ del, dfn, em, font, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td 
-{
+table, caption, tbody, tfoot, thead, tr, th, td {
 border: 0;
 font-family: inherit;
 font-size: 100%;
@@ -193,8 +191,8 @@ button,
 input,
 select,
 textarea {
-color: #777;
-font-family: "PT Sans",Helvetica,sans-serif;
+color: #404040;
+font-family: "Oxygen",Helvetica,sans-serif;
 font-size: 13px;
 font-size: 1.3rem;
 line-height: 1.5;
@@ -506,7 +504,7 @@ height:100px;
 background:url(http://i.imgur.com/Whf0vwf.jpg);
 }
 .logo{
-margin:20px 0px 0px 0px;
+margin:28px 0px 0px 0px;
 }
 h1.site-title{
 margin:5px 0px 0px 0px ;
@@ -653,11 +651,11 @@ display:block;
 /* =Widgets
 ----------------------------------------------- */
 .sidebar {
-color: #777777;
+color: #404040;
 }
 .sidebar a {
 text-decoration: none;
-color: #777777;
+color: #404040;
 }
 .sidebar a:hover {
 text-decoration: none;
