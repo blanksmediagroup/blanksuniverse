@@ -1,2 +1,3 @@
-Hosting CSS for [blank]'s Universe(BU) and [blank]'s Films (BF).
+Site Resource Hosting
 =================
+Site resources for [blank]'s Universe (bu) and [blank]'s Films (bf).
