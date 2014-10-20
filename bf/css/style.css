@@ -1,4 +1,4 @@
-/* -----------------------------------------------
+/*-----------------------------------------------
 Template Name  : Underfire
 Author         : NewBloggerThemes.com
 Author URL     : http://newbloggerthemes.com/
@@ -414,11 +414,11 @@ width: 98%;
 }
 /* Links */
 a {
-color: #ff9900;
+color: #ff0000;
 text-decoration: none;
 }
 a:visited {
-color: #ff9900;
+color: #ff0000;
 }
 a:hover,
 a:focus,
@@ -504,7 +504,7 @@ height:100px;
 background:url(http://i.imgur.com/Whf0vwf.jpg);
 }
 .logo{
-margin:28px 0px 0px 0px;
+margin:10px 0px 0px 0px;
 }
 h1.site-title{
 margin:5px 0px 0px 0px ;
@@ -526,7 +526,7 @@ float:right;
 margin-top: 35px;
 }
 #searchsubmit{
-background:#ff9900;;
+background:#ff0000;;
 border: 1px solid #F9806D;
 box-shadow:none;
 }
@@ -659,7 +659,7 @@ color: #404040;
 }
 .sidebar a:hover {
 text-decoration: none;
-color: #FF9900
+color: #FF0000
 ;
 }
 .sidebar .widget {
@@ -825,7 +825,7 @@ right:50%;
 margin-right: -480px;
 background:url(http://3.bp.blogspot.com/-Qb3ZN2OiWXQ/UNxSvCDCQ_I/AAAAAAAADA4/9RVzDlVsQZM/s1600/trans.png);
 color:#fff;
-border-bottom:20px solid #ff9900;
+border-bottom:20px solid #ff0000;
 }
 .flex-caption h3{
 font-weight: bold;
