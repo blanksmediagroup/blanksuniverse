@@ -1,5 +1,3 @@
-
-
 *, *:after, *:before {box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-webkit-font-smoothing: antialiased;font-smoothing: antialiased;text-rendering: optimizeLegibility;}
 /*------------------------------------------------------
 Variable @ Template Designer
@@ -15,7 +13,7 @@ default="normal normal 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif" valu
 <Variable name="body.background.color" description="Body Color" type="color" default="#f3f3f3" value="#f0f0f0"/>
 <Variable name="primary.background.color" description="Primary background Color" type="color" default="#28c9bc" value="#202020"/>
 <Variable name="secondary.background.color" description="Secondary background Color" type="color" default="#28c9bc" value="#777777"/>
-<Variable name="tertiary.background.color" description="Tertiary background Color" type="color" default="#28c9bc" value="#CD1F1F"/>
+<Variable name="tertiary.background.color" description="Tertiary background Color" type="color" default="#28c9bc" value="#ff8300"/>
 </Group>
 
 ------------------------------------------------------*/
@@ -101,7 +99,7 @@ div#header {
 }
 
 #header-inner{text-align:center; margin: 50px 0; padding: 0; }
-#header h1 {
+#header h1 { 
   font-family: "rock salt",cursive;
   font-size: 50px;
   font-weight: bold;
@@ -185,7 +183,7 @@ margin-top:0;
   border-top: 0;
   border-left: 3px solid transparent;
 }
-.nav-menu li ul li a:hover{border-left-color:$(tertiary.background.color)}
+.nav-menu li ul li a:hover{border-left-color:$(tertiary.background.color)} 
 
 /*------------------------------------
 
@@ -356,7 +354,7 @@ font-size: 32px;
   font-size: 12px;
 }
 .meta span.date {
-  background:#CD1F1F;
+  background:#ff8300;
   color: #fff;
   padding: 5px 10px;
   line-height: 1;
@@ -396,7 +394,7 @@ font-size: 32px;
 margin-bottom: 30px;
 }
 .article_read_mre span {
-  background: #CD1F1F;
+  background: #ff8300;
   padding: 12px 50px;
   line-height: 1;
 letter-spacing:2px;
@@ -516,7 +514,7 @@ Sidebar CSS
   color: #fff;
 }
 .sidebar h2:after,.sidebar h2:before{content:"";position:absolute;display:block;width:3px;height:100%;top:0;left:-20px;background: #333;}
-.sidebar h2:after {width: 100%;z-index: -1;background: #CD1F1F;}
+.sidebar h2:after {width: 100%;z-index: -1;background: #ff8300;}
 
 .sidebar .widget { background: #fff; padding: 20px; clear: both; font-size: 13px; line-height: 23px; margin-bottom: 30px; }
 .sidebar ul { margin: 0; padding: 0; list-style: none; }
@@ -732,8 +730,8 @@ background:#FFC63D;
 #About .widget-content .main-wrap { width: auto; margin-right: 370px; }
 #About .widget-content .main-wrap .info { float: left; position: relative; width: 90%; padding: 10px 5%; }
 #About .widget-content .side-wrap { width: 340px; float: right; text-align: center; }
-#About .widget-content .main-wrap .info h5 { border-bottom: 1px solid #F1F4F9; color: #000000; font-size: 16px; font-weight: bold; margin: 0 0 10px; padding: 0 0 5px; text-transform: capitalize; }
-#About .widget-content .main-wrap .info p { color: $(secondary.background.color); font-style: italic; }
+#About .widget-content .main-wrap .info h5 { border-bottom: 1px solid #F1F4F9; color: #000000; font-size: 16px; font-weight: bold; margin: 0 0 10px; padding: 0 0 5px; text-transform: capitalize; } 
+#About .widget-content .main-wrap .info p { color: $(secondary.background.color); font-style: italic; } 
 #About .widget-content .side-wrap .author-img { border: 1px solid #CECECE; height: 150px; vertical-align: bottom; width: 150px; -webkit-border-radius: 50%;	-moz-border-radius: 50%; border-radius: 50%; }
 ul.author-social { display: inline-block; margin: 10px 0 0; padding: 0; }
 ul.author-social li { background: url("http://3.bp.blogspot.com/-Mu6D1ld_3TE/U35bF1XXIVI/AAAAAAAADBM/VaHEtkyX3MA/s1600/sprites.png") no-repeat; display: inline-block; font-weight: bold; font-size: 12px; line-height: 16px; list-style: none; padding: 0 20px; }
@@ -995,9 +993,6 @@ div#Blog1{margin:0;}
 ul.blog_menus {
   display: none;
 }
-.footer {
-  width: 100%;
-}
 }
 
 
@@ -1006,34 +1001,12 @@ ul.blog_menus {
 .blog_featured_post{height:250px;}
 .blog_featured_post a .blog_contents{bottom:15px;}
 .post_title {font-size: 26px;}
-.footer {
-  width: 100%;
-}
+
 }
 
 @media screen and (max-width: 420px){
 .comments .comments-content .datetime{    display:block;    float:none;    }
 .comments .comments-content .comment-header {    height:70px;    }
-.blog_featured_post a .blog_contents {
-  bottom: 35%;
-  left: 5%;
-  right: 5%;
-  width: auto;
-}
-.owl-controls.clickable {
-  display: none;
-}
-.post.hentry {
-  padding: 40px 20px;
-}
-.article_header h2 {
-  font-size: 24px;
-  line-height: 1.5;
-}
-.meta {
-  font-size: 10px;
-}
-body{font-size:12px;}
 
 }
 
@@ -1042,7 +1015,6 @@ body{font-size:12px;}
 .post-body img{  max-width: 230px; }
 .comments .comments-content .comment-replies {    margin-left: 0;    }
 }
-
 
 /*****************************************
 Hiding Header Date and Feed Links
