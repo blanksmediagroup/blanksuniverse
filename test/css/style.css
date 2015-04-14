@@ -1,22 +1,3 @@
-*, *:after, *:before {box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-webkit-font-smoothing: antialiased;font-smoothing: antialiased;text-rendering: optimizeLegibility;}
-/*------------------------------------------------------
-Variable @ Template Designer
---------------------------------------------------------
-<Group description="Header Text" selector="h1,h2,h3,h4,h5,h6">
-<Variable name="header.font" description="Font" type="font"
-default="normal normal 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 28px Montserrat"/>
-<Variable name="header.text.color" description="Text Color" type="color" default="#222222" value="#222222"/>
-</Group>
-
-<Variable name="keycolor" description="Main Color" type="color" default="#757575" value="#757575"/>
-<Group description="Body-background" selector="body">
-<Variable name="body.background.color" description="Body Color" type="color" default="#f3f3f3" value="#f0f0f0"/>
-<Variable name="primary.background.color" description="Primary background Color" type="color" default="#28c9bc" value="#202020"/>
-<Variable name="secondary.background.color" description="Secondary background Color" type="color" default="#28c9bc" value="#777777"/>
-<Variable name="tertiary.background.color" description="Tertiary background Color" type="color" default="#28c9bc" value="#ff8300"/>
-</Group>
-
-------------------------------------------------------*/
 
 /*****************************************
 reset.css
